@@ -41,9 +41,13 @@ img {
 li{
     color: white;
     list-style-type: none;
+   
     
 }
 
+.links {
+    text-decoration: none;
+}
 
 
 .bloco{
