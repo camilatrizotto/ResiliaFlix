@@ -81,7 +81,8 @@ $('#botao').click(()=>{
 
               // alert(`sua antiga senha era: ${senhaAntiga}`)
 
-                window.location.href = "file:///C:/Users/PC/Desktop/ResiliaFlix/ProjetoFinalFlix/html/pagina2login.html"
+               // window.location.href = "file:///C:/Users/PC/Desktop/ResiliaFlix/ProjetoFinalFlix/html/pagina2login.html"
+                window.location.href = "../html/pagina2login.html"
 
             }
            

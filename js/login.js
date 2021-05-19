@@ -66,7 +66,8 @@ let cadastros =  [
    let cadastrado = confirma.reduce((x,y)=>{return x+y})
 
     if(cadastrado > 0){
-        window.location.href="file:///C:/Users/PC/Desktop/ResiliaFlix/ProjetoFinalFlix/html/resiliaflix.html"
+        //window.location.href="file:///C:/Users/PC/Desktop/ResiliaFlix/ProjetoFinalFlix/html/resiliaflix.html"
+        window.location.href="../html/resiliaflix.html"
          }
     else{
         alert("faça o cadastro")
