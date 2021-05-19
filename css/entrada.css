@@ -1,0 +1,21 @@
+main{
+    justify-content: center;
+    margin-left: 12cm;
+    margin-top: 2cm;
+    color: black;
+    margin-top: 6cm;
+}
+#topo{
+    margin-left: 27cm;
+    background-color: red;
+    color: white;
+}
+
+#medio{
+    margin-left: 13cm;
+    width: 9cm;
+    background-color: red;
+}
+header{
+    margin-right: 5cm;
+}
