@@ -1,5 +1,5 @@
 $('input').keyup(()=>{
-
+   
     let input = $('input').val()
    
 
@@ -9,12 +9,14 @@ $('input').keyup(()=>{
 
     .then(function(response){
 
-        console.log(response.data)
+        console.log(response.data);
         
-        
+        let img = $('#divApi').html(`<h2>${response.data.Title}<h2><img src= ${response.data.Poster}><p>${response.data.Plot}<p>`);
        
     })
-
+   .catch(function(e){
+       console.log("deu ruim")
+   })
 
 
 })
