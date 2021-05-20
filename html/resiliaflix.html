@@ -75,9 +75,25 @@
     </nav>
 
     <div class="container-fluid">
+        <div class="container-fluid" id="container-infos">
+            <div class="row justify-content-center align-items-center" id="boxApiContainer">
+        
+                <div class="col-12 col-sm-8 d-flex align-items-end flex-column justify-content-center" id="divApiInfos">
+                    <h2 id="apiTitulos"></h2>
+                    <h3 class="mb-3" id="apiGenero"></h3>
+                    <h4 class="lead mb-2" id="apiTempo"></h4>
+                    <h5 class="lead" id="apiSinopse"></h5>
+                </div>
+                
+                <div class="col-12 col-sm-4 d-flex justify-content-end align-items-center" id="boxDivImg">
+                    <img id="poster">
+                </div>
+        
+            </div>
+          </div>
         <div class="row">
             <div class="col-12 full-banner text-white " >
-                <div class="p4 d-flex justify-content-star align-items-center h-100" id="boxApi">
+                <div class="p4 d-flex justify-content-between align-items-center h-100">
                     <Div >
                         <h1 class="h3">Zack Snyder Justice League</h1>
                         <small class="d-flex my-2">
@@ -94,14 +110,15 @@
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                                 Assistir
                               </button>
-                        <div id="divApi">
-                             
-                        <!-- div api  -->
-
-                        </div>      
+                       
                         <!--<a href="#" class="btn btn-primary text-uppercase font-weight-bold">Assistir</a>-->
-                    </div>
-                </Div>
+                    </Div>
+                    <!-- <div id="divApi" style="border: 1px solid; width: 200px; height: 200px;">
+                             
+                        
+
+                    </div>       -->
+                </div>
             </div>
         </div>
     </div>

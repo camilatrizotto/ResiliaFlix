@@ -10,9 +10,20 @@ $('input').keyup(()=>{
     .then(function(response){
 
         console.log(response.data);
-        
-        let img = $('#divApi').html(`<h2>${response.data.Title}<h2><img src= ${response.data.Poster}><p>${response.data.Plot}<p>`);
-       
+        //////pegando tags para importar os dados da api////////
+        let api = $('#divApiInfos')
+        let img = $('#poster');
+        let titulo = $('#apiTitulo');
+        let genero = $('#apiGenero');
+        let tempo = $('#apiTempo');
+        let sinopse = $('#apiSinopse');
+        ////////////importando os dados para suas devidas tags////////
+        api.addClass('divApiInfos')
+        img.attr('src',response.data.Poster).addClass('poster')
+        titulo.html(response.data.Title).addClass('apiTitulo')
+        genero.html(response.data.Genre).addClass('apiGenero')
+        tempo.html(response.data.Runtime).addClass('apiTempo')
+        sinopse.html(response.data.Plot).addClass('apiSinopse')
     })
    .catch(function(e){
        console.log("deu ruim")
@@ -20,3 +31,6 @@ $('input').keyup(()=>{
 
 
 })
+
+
+

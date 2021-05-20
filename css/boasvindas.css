@@ -1,25 +1,83 @@
-main{
-    justify-content: center;
-    margin-left: 12cm;
-    margin-top: 2cm;
-    color: black;
-    margin-top: 6cm;
+#boxDoCard{
+    height: calc(100vh - 48px);
 }
-#topo{
-    margin-left: 27cm;
-    background-color: red;
-    color: white;
+#card{
+    width: 500px;
+    height: 280px;
+}
+#cardBody{
+    width: 500px;
+    height: 280px;
 }
 
-#medio{
-    margin-left: 12.5cm;
-    width: 9.5cm;
-    background-color: red;
-    margin-top: 0.5cm;
+#boxDoCard{
+    height: calc(100vh - 48px);
 }
-header{
-    margin-right: 5cm;
+
+#card{
+    width: 300px;
+    height: 360px;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: space-around!important;
+    align-items: center!important;
+    position: absolute;
+    top: 200px;
 }
-img{
-    margin-left: 1.5cm;
+
+h2 {
+    font-size: 25px;
+}
+
+#paragrafo {
+    padding: 0 13px;
+}
+
+#btnGroup {
+
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: space-around!important;
+    align-items: center!important;
+
+}
+
+#botao {
+    margin: 40px 0;
+}
+
+@media (min-width: 576px) {
+
+    #boxDoCard{
+        height: calc(100vh - 48px);
+    }
+
+    #card{
+        width: 500px;
+        height: 400px;
+        display: flex!important;
+        flex-direction: column!important;
+        justify-content: space-around!important;
+        align-items: center!important;
+        position: absolute;
+        top: 150px;
+    }
+
+    #paragrafo {
+        padding: 0 13px;
+    }
+
+    #btnGroup {
+
+        display: flex!important;
+        flex-direction: column!important;
+        justify-content: space-around!important;
+        align-items: center!important;
+
+    }
+
+    #botao {
+        margin: 40px 0;
+    }
+
 }

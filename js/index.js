@@ -6,9 +6,6 @@ $('input').keyup((e)=>{
     }
 })
 
-$('a').click(()=>{
-    window.location.href= "../html/pagina2login.html"
-})
 
 $('span').click(()=>{
     window.location.href= "../html/pagina2login.html"

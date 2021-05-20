@@ -1,0 +1,7 @@
+#boxForm{
+    height: calc(100vh - 24px);
+}
+
+#centraliza{
+    max-height: 600px;
+}
