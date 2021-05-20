@@ -1,5 +1,4 @@
 let cadastros =  [ 
-
     {nome:"Diego",sobrenome:"Goes",email:"diegogoessg@gmail.com",senha:"papel123",Rg:"1",cep:27253123,bairro:"Monte Castelo",rua:"Ghandi",cidade:"Volta Redonda",estado:"RJ",perguntaDeSegurança:"rex"},
     {nome:"Isac",sobrenome:"silva",email:"isac@gmail.com",senha:"isac123",Rg:"16054986708",cep:27253123,bairro:"Monte Castelo",rua:"Ghandi",cidade:"Volta Redonda",estado:"RJ", perguntaDeSegurança:"rex"},
     {nome:"Camila",sobrenome:"Trizoto",email:"camilag@gmail.com",senha:"camila123",Rg:"16054986708",cep:27253123,bairro:"Monte Castelo",rua:"Ghandi",cidade:"Volta Redonda",estado:"RJ",perguntaDeSegurança:"rex"},

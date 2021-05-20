@@ -6,7 +6,7 @@ $(document).ready(function() {
         $("#bairro").val("");
         $("#cidade").val("");
         $("#uf").val("");
-        $("#ibge").val("");
+        $("#cep").val("");
     }
     
     //Quando o campo cep perde o foco.
@@ -29,7 +29,7 @@ $(document).ready(function() {
                 $("#bairro").val("...");
                 $("#cidade").val("...");
                 $("#uf").val("...");
-                $("#ibge").val("...");
+                $("#cep").val("...");
 
                 //Consulta o webservice viacep.com.br/
                 $.getJSON("https://viacep.com.br/ws/"+ cep +"/json/?callback=?", function(dados) {
@@ -40,7 +40,7 @@ $(document).ready(function() {
                         $("#bairro").val(dados.bairro);
                         $("#cidade").val(dados.localidade);
                         $("#uf").val(dados.uf);
-                        $("#ibge").val(dados.ibge);
+                        $("#cep").val(dados.ibge);
                     } //end if.
                     else {
                         //CEP pesquisado não foi encontrado.
@@ -60,4 +60,12 @@ $(document).ready(function() {
             limpa_formulário_cep();
         }
     });
+    // $('#btnEntrar').click(()=>{
+    //     window.location.href="../html/bemvindas.html";
+    // })
+   
 });
+
+$('#btnCadastra').click(()=>{
+    window.location.href = "https://jquery.com/";
+})
