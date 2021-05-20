@@ -1,4 +1,21 @@
-$(document).ready(function() {
+    $('#btnCadastra').click(()=>{
+       let senha = $('#senha').val()
+       let confirmaSenha = $('#confirmaSenha').val()
+       let checkBox = $('#checkCadastro')
+
+       if(senha !== confirmaSenha){
+           alert("as senhas não são iguais")
+       }
+       else if(checkBox.is(':checked') == false){
+           alert("aceite o termos!")
+       }
+       else{
+           alert("conta cadastrada com sucesso!")
+           window.location.href="../html/bemvindas.html"
+       }
+     })
+
+ 
 
     function limpa_formulário_cep() {
         // Limpa valores do formulário de cep.
@@ -61,18 +78,8 @@ $(document).ready(function() {
         }
     });
 
-    
-});
+ 
+     
 
-$('#btnCadastra').click(()=>{
-   let senha = $('#senha').val()
-   let confirmaSenha = $('#confirmaSenha').val()
-   if(senha == confirmaSenha){
-       alert("conta cadastrada com sucesso")
-       window.location.href="../html/bemvindas.html"
-   }
-   else{
-       alert("as senhas não são iguais")
-   }
-})
+
 
