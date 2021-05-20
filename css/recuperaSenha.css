@@ -1,3 +1,11 @@
+#boxForm{
+  height: calc(100vh - 24px);
+}
+
+#centraliza{
+  max-height: 600px;
+}
+
 .modal {
     display: block; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -102,4 +110,35 @@
     -webkit-animation-duration: 0.8s;
     animation-name: fadeIn;
     animation-duration: 0.8s;
+  }
+
+  #btnsenha{
+    border: 1px solid rgba(156, 0, 0, 0.781);
+    margin-top: 25px;
+    background-color: #e50914;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 15em;
+    border-radius: 5px;
+  }
+
+  #botaomodal{
+    border: 1px solid rgba(156, 0, 0, 0.781);
+    margin-bottom: 2px;
+    background-color: #e50914dc;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 15em;
+    border-radius: 5px;
+   
+  }
+
+  #botao{
+    border: 1px solid rgba(156, 0, 0, 0.781);
+    margin-bottom: 2px;
+    background-color: #e50914dc;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 15em;
+    border-radius: 5px;
   }

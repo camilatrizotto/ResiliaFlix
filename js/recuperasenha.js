@@ -20,17 +20,14 @@ $('#botao').click(()=>{
     let bairro = $('#bairro').val();
     let pergunta = $('#seguranca').val();
     let verifica = [];
-    let conta = [];
-
-    console.log(email);
-    console.log(bairro);
-    console.log(rg);
-
-    cadastros.forEach((item,indice)=>{
+    console.log(email)
+    console.log(rg)
+    console.log(bairro)
+    console.log(pergunta)
+    cadastros.forEach((item)=>{
         if(item.email === email && item.Rg === rg && item.bairro === bairro && item.perguntaDeSegurança === pergunta){
             let ok = 1;
             verifica.push(ok);
-            conta.push(indice);
         }
         else{
             let nok= 0;
@@ -42,17 +39,16 @@ $('#botao').click(()=>{
         return x+y;
     })
     console.log(verficacao);
-    console.log(conta);
-
   
 
-    if(verficacao > 0){ 
+    if(verficacao>0){ 
         let codigo = codigos[Math.floor(Math.random() * (codigos.length))]
 
-        
-            $('.recuperacao').html("<label>Nova Senha:<input name= Nova Senha type= text id= novasenha size= 10  maxlength= 9  /></label><br /> <label>Confirma Nova Senha: <input name= Confirma Nova Senha type= text id= confirmasenha size= 10 maxlength= 9  /></label><br />    <label>Código De Validação :<input name= codigo type=text id= codigovalida size=40 /></label><br /> " )
+            $('#botao').remove()
 
-            $('.areamodal').html("<input name= botao type = button id = botaomodal value=Código /></label><br/> <div id=myModal class=modal><div class=modal-content><div class=modal-header><span class=close>&times;</span><h2>"+codigo+"</h2></div><div class=modal-body><p>código para recuperar sua senha</p></div><div class=modal-footer></div></div></div> <input name= Mudar Senha type= button id = btnsenha value=Mudar_Senha  /></label><br />")
+            $('.recuperacao').html(" <div class=col-md-4> <label  class= form-label>Nova Senha</label> <input type= text class= form-control id= novasenha> </div>     <div class= col-md-4><label  class= form-label>Confirmação da Senha </label><input type= text class= form-control id= confirmasenha></div>      <div class= col-md-4><label  class= form-label>Código</label> <input type= text class= form-control id= codigovalida> </div>")
+
+            $('.areaModal').html(" <div class= col-4 ></div> <div class= col-4 d-flex justify-content-center> <input type= button class= btn btn-danger px-1 id= botaomodal value= Código> </div> <div class=col-4></div>              <div id=myModal class=modal><div class=modal-content><div class=modal-header><span class=close>&times;</span><h2>"+codigo+"</h2></div><div class=modal-body><p>código para recuperar sua senha</p></div><div class=modal-footer></div></div></div>           <div class= col-4 ></div><div class= col-4 d-flex justify-content-center><input type= button class= btn btn-danger px-1 id= btnsenha value= Mudar_Senha> </div> <div class=col-4></div>")
 
             $('.close').click(()=>{
                 $('#myModal').removeClass('modal')
@@ -90,13 +86,14 @@ $('#botao').click(()=>{
     }
     
     else{
+       
         alert("Dados Inválidos");
     }
 
 })
 
 
-   
+//$('.recuperacao').html("<label>Nova Senha:<input name= Nova Senha type= text id= novasenha size= 10  maxlength= 9  /></label> <br /> <label>Confirma Nova Senha: <input name= Confirma Nova Senha type= text id= confirmasenha size= 10 maxlength= 9  /></label><br />    <label>Código De Validação :<input name= codigo type=text id= codigovalida size=40 /></label><br /> ")
   
   
 

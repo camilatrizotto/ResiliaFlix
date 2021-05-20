@@ -8,7 +8,7 @@ $('input').keyup(()=>{
     axios.get(url+"&t="+input)
 
     .then(function(response){
-
+        $('#boxApiContainer').css('display','flex')
         console.log(response.data);
         //////pegando tags para importar os dados da api////////
         let api = $('#divApiInfos')
@@ -32,5 +32,8 @@ $('input').keyup(()=>{
 
 })
 
+$(window).scroll(()=>{
+    $('#boxApiContainer').css('display','none')
+})
 
 

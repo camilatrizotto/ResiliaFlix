@@ -60,12 +60,19 @@ $(document).ready(function() {
             limpa_formulário_cep();
         }
     });
-    // $('#btnEntrar').click(()=>{
-    //     window.location.href="../html/bemvindas.html";
-    // })
-   
+
+    
 });
 
 $('#btnCadastra').click(()=>{
-    window.location.href = "https://jquery.com/";
+   let senha = $('#senha').val()
+   let confirmaSenha = $('#confirmaSenha').val()
+   if(senha == confirmaSenha){
+       alert("conta cadastrada com sucesso")
+       window.location.href="../html/bemvindas.html"
+   }
+   else{
+       alert("as senhas não são iguais")
+   }
 })
+
