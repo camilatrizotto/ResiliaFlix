@@ -1,9 +1,14 @@
 let cadastros =  [ 
-    {nome:"Diego",sobrenome:"Goes",email:"diegogoessg@gmail.com",senha:"papel123",Rg:"1",cep:27253123,bairro:"Monte Castelo",rua:"Ghandi",cidade:"Volta Redonda",estado:"RJ",perguntaDeSegurança:"rex"},
-    {nome:"Isac",sobrenome:"silva",email:"isac@gmail.com",senha:"isac123",Rg:"16054986708",cep:27253123,bairro:"Monte Castelo",rua:"Ghandi",cidade:"Volta Redonda",estado:"RJ", perguntaDeSegurança:"rex"},
-    {nome:"Camila",sobrenome:"Trizoto",email:"camilag@gmail.com",senha:"camila123",Rg:"16054986708",cep:27253123,bairro:"Monte Castelo",rua:"Ghandi",cidade:"Volta Redonda",estado:"RJ",perguntaDeSegurança:"rex"},
-    {nome:"Kituxi",sobrenome:"carvalho",email:"kituxi@gmail.com",senha:"kituxi123",Rg:"16054986708",cep:27253123,bairro:"Monte Castelo",rua:"Ghandi",cidade:"Volta Redonda",estado:"RJ",perguntaDeSegurança:"rex"},
-    {nome:"Verginia",sobrenome:"nascimento",email:"verginia@gmail.com",senha:"verginia123",Rg:"16054986708",cep:27253123,bairro:"Monte Castelo",rua:"Ghandi",cidade:"Volta Redonda",estado:"RJ",perguntaDeSegurança:"rex"},
+
+    {nome:"Diego",sobrenome:"Goes",email:"diegogoessg@gmail.com",senha:"papel123",Rg:"175284509013",cep:272531703,bairro:"Monte Castelo",rua:"Ghandi",cidade:"Volta Redonda",estado:"RJ",perguntaDeSegurança:"Quer ajuda?"},
+    {nome:"Isac",sobrenome:"silva",email:"isac@gmail.com",senha:"isac123",Rg:"176106764034",cep:83604514,bairro:"Batel",rua:"Rua Mário do Nascimento Camargo",cidade:"Campo Largo",estado:"PR",perguntaDeSegurança:"Back ou front?"},
+    {nome:"Camila",sobrenome:"Trizoto",email:"camilag@gmail.com",senha:"camila123",Rg:"45406313061",cep:38410302,bairro:"Laranjeiras",rua:"Rua do Adolescente",cidade:"Uberlândia",estado:"MG",perguntaDeSegurança:"Café é vida?"},
+    {nome:"Kituxi",sobrenome:"carvalho",email:"kituxi@gmail.com",senha:"kituxi123",Rg:"19130868017",cep:45600363,bairro:"Mangabinha",rua:"Quadra M",cidade:"Itabuna",estado:"BA",perguntaDeSegurança:"Vamos rebolar?"},
+    {nome:"Verginia",sobrenome:"nascimento",email:"verginia@gmail.com",senha:"verginia123",Rg:"13867675066",cep:41710650,bairro:"Boca do Rio",rua:"Rua da Baixa Fria",cidade:"Salvador",estado:"BA",perguntaDeSegurança:"Quem vc indica para o paredão?"},
+    {nome:"LuizCurintias",sobrenome:"Henrique",email:"LuizH@gmail.com",senha:"pizzanopote",Rg:"13867675066",cep:78135661,bairro:"Santa Inês",rua:"Rua General Ciro Sodré",cidade:"Várzea Grander",estado:"MT",perguntaDeSegurança:"O que é variaveis?"},
+    {nome:"Anafada",sobrenome:"Beatriz",email:"AnaB@gmail.com",senha:"euacreditoemfadas",Rg:"13867675058",cep:41710650,bairro:"Vila Nova",rua:"Rua da Baixa Fria",cidade:"Salvador",estado:"BA",perguntaDeSegurança:"você acredita em fadas?"},
+    {nome:"Usuariomaster",sobrenome:"Obama",email:"eusouocara@gmail.com",senha:"vemquetem",Rg:"13867675066",cep:29147326,bairro:"Glória",rua:"Rua São Pedro",cidade:"Cariacica",estado:"ES",perguntaDeSegurança:"Você é o ronaldo?"},
+  
   ] 
  
 let codigos = [ 'J4N40','NKN5A','W70WU','SMAH5','OEQDG','IO35D','9F8N9','Y1JCX','KZTAK','FTXF2','RT69Y','DHC6D','G6IEJ','H3AR6','Y3UI4','5NNRT','GAEC9',
@@ -93,7 +98,6 @@ $('#botao').click(()=>{
 })
 
 
-//$('.recuperacao').html("<label>Nova Senha:<input name= Nova Senha type= text id= novasenha size= 10  maxlength= 9  /></label> <br /> <label>Confirma Nova Senha: <input name= Confirma Nova Senha type= text id= confirmasenha size= 10 maxlength= 9  /></label><br />    <label>Código De Validação :<input name= codigo type=text id= codigovalida size=40 /></label><br /> ")
   
   
 
