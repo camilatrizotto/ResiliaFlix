@@ -1,0 +1,64 @@
+body {
+    background-color: #1b1b1b!important;
+    font-family: var(--fontOne);
+    
+}
+
+.criadores{
+    text-align: center;
+    
+}
+
+.criadores li{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+
+    
+}
+
+.caixa {
+    display: flex;
+}
+
+
+.logo {
+    width: 140px;
+
+}
+
+img {
+    width: 200px;
+}
+
+.img:hover {
+
+        width:300px;
+	    height:300px;
+}
+
+
+li{
+    color: white;
+    list-style-type: none;
+   
+    
+}
+
+.links {
+    text-decoration: none;
+}
+
+
+.bloco{
+    display: flex;
+    margin: 50px 0 0 230px;
+    
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-family: var(--fontOne);
+    margin-top: 50px;
+}
